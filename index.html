@@ -28,20 +28,8 @@
             text-align: center;
         }
 
-        h1 {
-            font-size: 2.5rem;
-            font-weight: 800;
-            color: #5a3e3e;
-            margin-bottom: 10px;
-        }
-
-        .subtitle {
-            font-size: 1.1rem;
-            color: #777;
-            margin-bottom: 30px;
-            border-bottom: 2px solid #e0d8d0;
-            padding-bottom: 15px;
-        }
+        h1 { font-size: 2.5rem; font-weight: 800; color: #5a3e3e; margin-bottom: 10px; }
+        .subtitle { font-size: 1.1rem; color: #777; margin-bottom: 30px; border-bottom: 2px solid #e0d8d0; padding-bottom: 15px; }
 
         .gallery {
             position: relative;
@@ -72,83 +60,30 @@
             to { opacity: 1; transform: scale(1); }
         }
 
-        .nav-buttons {
-            display: flex;
-            justify-content: center;
-            gap: 15px;
-            margin-bottom: 30px;
-        }
-
+        .nav-buttons { display: flex; justify-content: center; gap: 15px; margin-bottom: 30px; }
         .nav-btn {
-            background: #e6dcd3;
-            border: none;
-            padding: 10px 25px;
-            border-radius: 30px;
-            font-size: 1rem;
-            font-weight: 600;
-            color: #5a3e3e;
-            cursor: pointer;
-            transition: all 0.3s ease;
+            background: #e6dcd3; border: none; padding: 10px 25px; border-radius: 30px;
+            font-size: 1rem; font-weight: 600; color: #5a3e3e; cursor: pointer; transition: all 0.3s ease;
         }
+        .nav-btn:hover { background: #5a3e3e; color: #fff; transform: translateY(-2px); }
 
-        .nav-btn:hover {
-            background: #5a3e3e;
-            color: #fff;
-            transform: translateY(-2px);
-        }
-
-        .facts-title {
-            font-weight: 600;
-            font-size: 1.4rem;
-            margin-bottom: 15px;
-            color: #5a3e3e;
-        }
-
+        .facts-title { font-weight: 600; font-size: 1.4rem; margin-bottom: 15px; color: #5a3e3e; }
         .fact-box {
-            background: #f9f6f2;
-            padding: 20px;
-            border-radius: 15px;
-            font-size: 1.1rem;
-            line-height: 1.6;
-            margin-bottom: 20px;
-            min-height: 80px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            background: #f9f6f2; padding: 20px; border-radius: 15px; font-size: 1.1rem;
+            line-height: 1.6; margin-bottom: 20px; min-height: 80px; 
+            display: flex; align-items: center; justify-content: center;
         }
 
         .random-btn {
-            background: #b34d4d;
-            color: white;
-            border: none;
-            padding: 12px 30px;
-            border-radius: 30px;
-            font-size: 1rem;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            margin-bottom: 30px;
-            box-shadow: 0 4px 6px rgba(179, 77, 77, 0.3);
+            background: #b34d4d; color: white; border: none; padding: 12px 30px;
+            border-radius: 30px; font-size: 1rem; font-weight: 600; cursor: pointer;
+            transition: all 0.3s ease; margin-bottom: 30px; box-shadow: 0 4px 6px rgba(179, 77, 77, 0.3);
         }
+        .random-btn:hover { background: #923d3d; transform: translateY(-3px); }
 
-        .random-btn:hover {
-            background: #923d3d;
-            transform: translateY(-3px);
-        }
+        .footer { font-size: 0.9rem; color: #aaa; border-top: 1px solid #eee; padding-top: 20px; margin-top: 10px; }
 
-        .footer {
-            font-size: 0.9rem;
-            color: #aaa;
-            border-top: 1px solid #eee;
-            padding-top: 20px;
-            margin-top: 10px;
-        }
-
-        @media (max-width: 600px) {
-            .container { padding: 20px; }
-            h1 { font-size: 2rem; }
-            .gallery { height: 300px; }
-        }
+        @media (max-width: 600px) { .container { padding: 20px; } h1 { font-size: 2rem; } .gallery { height: 300px; } }
     </style>
 </head>
 <body>
@@ -158,17 +93,22 @@
         <div class="subtitle">Маленький кот с большими голубыми глазами</div>
 
         <div class="gallery" id="gallery">
-            <!-- ЗАМЕНИ НАЗВАНИЯ КАРТИНОК НА СВОИ -->
+            <!-- ✅ ТЕПЕРЬ ССЫЛКИ ВЕДУТ ПРЯМО НА ТВОЙ САЙТ НА ГИТХАБЕ -->
+            
             <!-- Фото 1: В массажёре -->
-            <img src="Ajc46HxH4opUUotGEJ1Zlx0_ylIz0-VLvaai1VaRflz_7jJ56BHiT1MDFBfSdjFEcOGVa-4hf84rrNRT7yfTaUei.jpg" alt="Снежок в массажёре" class="slider-img active">
+            <img src="https://dimaturin528.github.io/TurboSnezhok228/4AQQmHFHkSwLWT-e_dYjq84qRflzmND0Ks2DtH2u4s2jIMoU8foCw6JCe5H3m6g38xHlvJWuDLvGL608JlchBNQx.jpg" alt="Снежок в массажёре" class="slider-img active">
+            
             <!-- Фото 2: С планшетом -->
-            <img src="4MM52PpjyD6xF65BE0tt5u9FdaT3Bx6j96fhRSCq_FzmPKjJYQXYvbdXESF0H1WP15_HHvm1noIbwoq0RndSnhq0.jpg" alt="Снежок смотрит планшет" class="slider-img">
-            <!-- Фото 3: На пуфике -->
-            <img src="Ajc46HxH4opUUotGEJ1Zlx0_ylIz0-VLvaai1VaRflz_7jJ56BHiT1MDFBfSdjFEcOGVa-4hf84rrNRT7yfTaUei.jpg" alt="Голубые глаза Снежка" class="slider-img">
+            <img src="https://dimaturin528.github.io/TurboSnezhok228/4MM52PpjyD6xF65BE0tt5u9FdaT3Bx6j96fhRSCq_FzmPKjJYQXYvbdXESF0H1WP15_HHvm1noIbwoq0RndSnhq0.jpg" alt="Снежок смотрит планшет" class="slider-img">
+            
+            <!-- Фото 3: На пуфике/глазки -->
+            <img src="https://dimaturin528.github.io/TurboSnezhok228/kYhv5IUow-lTq8BWNocPYotwQwx-Mp8l4GPYi3iFHhYI4zfciohstaF3Ol4_6xRnNIcIpWmmn51oI9FETdK8qolR.jpg" alt="Голубые глаза Снежка" class="slider-img">
+            
             <!-- Фото 4: На кресле/диване -->
-            <img src="4AQQmHFHkSwLWT-e_dYjq84qRflzmND0Ks2DtH2u4s2jIMoU8foCw6JCe5H3m6g38xHlvJWuDLvGL608JlchBNQx.jpg" alt="Снежок на месте хозяина" class="slider-img">
+            <img src="https://dimaturin528.github.io/TurboSnezhok228/4AQQmHFHkSwLWT-e_dYjq84qRflzmND0Ks2DtH2u4s2jIMoU8foCw6JCe5H3m6g38xHlvJWuDLvGL608JlchBNQx.jpg" alt="Снежок на месте хозяина" class="slider-img">
+            
             <!-- Фото 5: Под пледом (НОВОЕ!) -->
-            <img src="W0I23jrqqSXew-uXHnGda6Oe0uRPxi_-z_pNInEaZZkooffvmj1ZpV5LaRDjBimVKkzWghCz0OpVCxb9r3AD_FG9.jpg" alt="Снежок прячется под пледом" class="slider-img">
+            <img src="https://dimaturin528.github.io/TurboSnezhok228/W0I23jrqqSXew-uXHnGda6Oe0uRPxi_-z_pNInEaZZkooffvmj1ZpV5LaRDjBimVKkzWghCz0OpVCxb9r3AD_FG9.jpg" alt="Снежок прячется под пледом" class="slider-img">
         </div>
 
         <div class="nav-buttons">
@@ -188,7 +128,6 @@
     </div>
 
     <script>
-        // ЛОГИКА ГАЛЕРЕИ
         const images = document.querySelectorAll('.slider-img');
         let currentImageIndex = 0;
 
@@ -209,7 +148,6 @@
             showImage(currentImageIndex);
         });
 
-        // ОБНОВЛЁННЫЕ ФАКТЫ С ПЛЕДОМ
         const facts = [
             "Снежок обожает смотреть, как ты играешь на PS4! 🎮",
             "У него небесно-голубые глаза, которые завораживают.",
@@ -228,10 +166,8 @@
             const randomIndex = Math.floor(Math.random() * facts.length);
             factDisplay.textContent = facts[randomIndex];
             factDisplay.style.transform = "scale(0.95)";
-            setTimeout(() => {
-                factDisplay.style.transform = "scale(1)";
-            }, 150);
+            setTimeout(() => { factDisplay.style.transform = "scale(1)"; }, 150);
         });
     </script>
 </body>
-  </html>
+</html>
